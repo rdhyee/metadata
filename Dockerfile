@@ -17,8 +17,6 @@ RUN \
   apt-get update && \
   apt-get install -y python python-dev python-pip python-virtualenv
   
-RUN \
-  apt-get install -y python-lxml libxml2-dev libxslt1-dev
   
 RUN \
   rm -rf /var/lib/apt/lists/*
