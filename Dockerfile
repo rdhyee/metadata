@@ -26,9 +26,8 @@ RUN \
 COPY ./* /metadata/
 
 # install requirements
-
+  
 RUN \
-  cd /metadata && \
   pip install \
     pymarc==3.0.3 \
     rdflib==4.2.0 \
